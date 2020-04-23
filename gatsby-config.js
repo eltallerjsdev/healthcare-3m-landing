@@ -2,25 +2,25 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'Healthcare3m',
+    description: 'Surgical face masks',
     contact: {
       phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      email: 'contacto@healthcare3m.com',
     },
     menuLinks: [
-      {
-        name: 'Services',
-        link: '/services',
-      },
-      {
-        name: 'Team',
-        link: '/team',
-      },
-      {
-        name: 'Testimonials',
-        link: '/testimonials',
-      },
+      // {
+      //   name: 'Services',
+      //   link: '/services',
+      // },
+      // {
+      //   name: 'Team',
+      //   link: '/team',
+      // },
+      // {
+      //   name: 'Testimonials',
+      //   link: '/testimonials',
+      // },
       {
         name: 'Contact',
         link: '/contact',

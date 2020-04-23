@@ -14,15 +14,14 @@ const Home = (props) => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="HC"
         />
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Serif - Gatsby Small Business Theme.</h1>
+          <h1>Healthcare 3M.</h1>
           <p>
-            Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This
-            is a beautiful and artfully designed starting theme.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
           </p>
         </div>
       </div>
@@ -30,7 +29,8 @@ const Home = (props) => {
       <div className="container pt-2">
         <Call button />
       </div>
-
+      
+    {/*
       <div className="container pt-8 pt-md-10">
         <div className="row justify-content-start">
           <div className="col-12">
@@ -54,7 +54,8 @@ const Home = (props) => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> 
+    
 
       <div className="container pt-5 pb-5 pt-md-7 pb-md-7">
         <div className="row justify-content-center">
@@ -75,7 +76,7 @@ const Home = (props) => {
             </div>
           ))}
         </div>
-      </div>
+      </div>*/}
     </Layout>
   );
 };
