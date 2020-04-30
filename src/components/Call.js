@@ -19,7 +19,7 @@ const Call = props => (
     </div>
     {props.button && (
       <div className="call-box-bottom">
-        <a href="/contact" className="button">
+        <a href="https://calendly.com/healthcare3m" className="button">
           Contact
         </a>
       </div>

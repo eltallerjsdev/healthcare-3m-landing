@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../layouts/index';
 import Call from '../components/Call';
+import logo3m from "../images/logo-healthcare-3m.png"
 
 const Home = (props) => {
   const markdown = props.data.allMarkdownRemark.edges;
@@ -19,9 +20,11 @@ const Home = (props) => {
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <h1>Healthcare 3M.</h1>
+          <img src={logo3m} alt="" width="400"/>
+          <br />
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            Health Care Particulate Respirator and Surgical Mask.
+            FDA Cleared for use as surgical mask
           </p>
         </div>
       </div>

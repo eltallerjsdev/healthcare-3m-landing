@@ -5,7 +5,7 @@ module.exports = {
     title: 'Healthcare3m',
     description: 'Surgical face masks',
     contact: {
-      phone: 'XXX XXX XXX',
+      phone: '+52 (686) 280-1630',
       email: 'contacto@healthcare3m.com',
     },
     menuLinks: [
