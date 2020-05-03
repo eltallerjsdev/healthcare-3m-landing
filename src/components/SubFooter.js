@@ -22,7 +22,7 @@ const SubFooter = props => (
             </ul>
             <ul>
               <li>
-                <a href="https://www.eltallerjs.com">eltallerjs.com</a>
+                <a href="#">LinkedIn</a>
               </li>
             </ul>
           </div>
