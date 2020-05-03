@@ -20,7 +20,9 @@ const Home = (props) => {
       </Helmet>
       <div className="intro pb-4">
         <div className="container">
-          <img src={logo3m} alt="" width="400"/>
+          <div style={{'width':'300px'}}>
+            <img src={logo3m} alt="Healthcare" width="300"/>
+          </div>
           <br />
           <p>
             Health Care Particulate Respirator and Surgical Mask.
